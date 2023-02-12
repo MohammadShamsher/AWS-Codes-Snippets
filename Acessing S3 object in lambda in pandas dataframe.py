@@ -1,6 +1,6 @@
 import boto3
 import pandas as pd
-from io import Bytes10
+from io import BytesIO
 s3=boto3.resource('s3')
 
 def lambda_handler(event,context):
